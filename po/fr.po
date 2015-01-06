@@ -4178,7 +4178,7 @@ msgstr "Extraction audio"
 #. i18n: ectx: property (text), widget (QCheckBox, paranoiaFull)
 #: po/rc.cpp:146 rc.cpp:146
 msgid "Full paranoia mode (best quality)"
-msgstr ""
+msgstr "Mode paranoïaque complet (meilleure qualité)"
 
 #. i18n: file: devices/audiocdsettings.ui:107
 #. i18n: ectx: property (text), widget (QCheckBox, paranoiaNeverSkip)
