@@ -197,7 +197,7 @@ public Q_SLOTS:
     void searchPlayQueue();
     void realSearchPlayQueue();
     void playQueueSearchActivated(bool a);
-    void updatePlayQueue(const QList<Song> &songs);
+    void updatePlayQueue(const QList<Song> &songs, bool isComplete);
     void updateCurrentSong(Song song, bool wasEmpty=false);
     void scrollPlayQueue(bool wasEmpty=false);
     void updateStats();
@@ -387,6 +387,7 @@ private:
     QWidget *contextPage;
     #ifdef ENABLE_DEVICES_SUPPORT
     Action *devicesTabAction;
+    Action *copyToDeviceAction;
     DevicesPage *devicesPage;
     #endif
     SearchPage *searchPage;
